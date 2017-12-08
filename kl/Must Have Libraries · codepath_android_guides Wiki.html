@@ -1,0 +1,1746 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)https://github.com/codepath/android_guides/wiki/Must-Have-Libraries -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com/">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" href="./Must Have Libraries · codepath_android_guides Wiki_files/frameworks-77c3b874f32e71b14cded5a120f42f5c7288fa52e0a37f2d5919fbd8bcfca63c.css" integrity="sha256-d8O4dPMucbFM3tWhIPQvXHKI+lLgo38tWRn72Lz8pjw=" media="all" rel="stylesheet">
+  <link crossorigin="anonymous" href="./Must Have Libraries · codepath_android_guides Wiki_files/github-68923e58eaacf64b4af271e01e5c657997f95533fd4a7e5be4b2ed7e23158a03.css" integrity="sha256-aJI+WOqs9ktK8nHgHlxleZf5VTP9Sn5b5LLtfiMVigM=" media="all" rel="stylesheet">
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Must Have Libraries · codepath/android_guides Wiki</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars1.githubusercontent.com/u/3710273?v=4&amp;s=400" property="og:image"><meta content="GitHub" property="og:site_name"><meta content="object" property="og:type"><meta content="codepath/android_guides" property="og:title"><meta content="https://github.com/codepath/android_guides" property="og:url"><meta content="android_guides - Extensive Open-Source Guides for Android Developers" property="og:description">
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTEyMjM1NTE0Ojg2YjdhYmE3ZTYxMDc0MDBiNTFlOGQzODg5ZjNmY2U1NDc1NmJkYzc2NzFmYjE4ZDI3M2VkMWI4MjYxODYyNzg=--005ac4ef68d2bf7c6c3b16b241ef9085dc510111">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="https://github.com/sessions/sudo_modal">
+  <meta name="request-id" content="9F28:129F2:503C3E:7A3A2B:5993EC2C" data-pjax-transient="">
+  
+
+  <meta name="selected-link" value="repo_wiki" data-pjax-transient="">
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host"><meta content="github" name="octolytics-app-id"><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url"><meta content="9F28:129F2:503C3E:7A3A2B:5993EC2C" name="octolytics-dimension-request_id"><meta content="sea" name="octolytics-dimension-region_edge"><meta content="iad" name="octolytics-dimension-region_render"><meta content="6734235" name="octolytics-actor-id"><meta content="giangsoda" name="octolytics-actor-login"><meta content="09fa7dd4749f8b49500b0f00d9b7dd66f1b3e3d0998e93cafd60da3d4385e127" name="octolytics-actor-hash">
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/wiki/show" data-pjax-transient="true" name="analytics-location">
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="giangsoda">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZDA1YzVlM2JmYWYzYzM5ZGIyODZhMzkxNmEzZjMwOWNkY2IxNzQxZDIyNDJkNWY3YjhhOTljMTI4ZTFiYzhlMnx7InJlbW90ZV9hZGRyZXNzIjoiMTAxLjk5LjE0LjEwIiwicmVxdWVzdF9pZCI6IjlGMjg6MTI5RjI6NTAzQzNFOjdBM0EyQjo1OTkzRUMyQyIsInRpbWVzdGFtcCI6MTUwMjg2NjQ3NywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER">
+
+  <meta name="html-safe-nonce" content="578445f1e8066712734907dfb4e06d63415d0d01">
+
+  <meta http-equiv="x-pjax-version" content="447b0b3a0b67e4794cf552d2e470a6cd">
+  
+
+      <link href="https://github.com/codepath/android_guides/commits/master.atom" rel="alternate" title="Recent Commits to android_guides:master" type="application/atom+xml">
+
+  <meta name="description" content="android_guides - Extensive Open-Source Guides for Android Developers">
+  <meta name="go-import" content="github.com/codepath/android_guides git https://github.com/codepath/android_guides.git">
+
+  <meta content="3710273" name="octolytics-dimension-user_id"><meta content="codepath" name="octolytics-dimension-user_login"><meta content="10788737" name="octolytics-dimension-repository_id"><meta content="codepath/android_guides" name="octolytics-dimension-repository_nwo"><meta content="true" name="octolytics-dimension-repository_public"><meta content="false" name="octolytics-dimension-repository_is_fork"><meta content="10788737" name="octolytics-dimension-repository_network_root_id"><meta content="codepath/android_guides" name="octolytics-dimension-repository_network_root_nwo"><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown">
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script src="./Must Have Libraries · codepath_android_guides Wiki_files/jquery.min.js"></script></head>
+
+  <body class="logged-in env-production chrome-mouse" cz-shortcut-listen="true">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#start-of-content" tabindex="1" class="bg-black text-white p-3 show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<div class="header" role="banner">
+  <div class="container-lg px-3 clearfix">
+    <div class="d-flex flex-justify-between">
+      <div class="d-flex">
+        <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+
+
+            <div class="mr-2">
+              <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/codepath/android_guides/search" class="js-site-search-form" data-scoped-search-url="/codepath/android_guides/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries" class="header-search-scope no-underline">This repository</a>
+      <input type="text" class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable" data-hotkey="s" name="q" value="" placeholder="Search" aria-label="Search this repository" data-unscoped-placeholder="Search GitHub" data-scoped-placeholder="Search" autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type">
+    </label>
+</form></div>
+
+            </div>
+
+          <ul class="d-flex list-style-none" role="navigation">
+            <li>
+              <a href="https://github.com/pulls" aria-label="Pull requests you created" class="js-selected-navigation-item header-navlink" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+                Pull requests
+</a>            </li>
+            <li>
+              <a href="https://github.com/issues" aria-label="Issues you created" class="js-selected-navigation-item header-navlink" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+                Issues
+</a>            </li>
+                <li>
+                  <a href="https://github.com/marketplace" class="js-selected-navigation-item header-navlink" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-selected-links=" /marketplace">
+                    Marketplace
+</a>                </li>
+              <li>
+                <a class="header-navlink" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
+              </li>
+          </ul>
+      </div>
+
+      <div class="d-flex">
+        
+<ul class="d-flex user-nav list-style-none" id="user-links">
+  <li class="dropdown js-menu-container">
+    
+      <a href="https://github.com/notifications" aria-label="You have no unread notifications" class="header-navlink notification-indicator tooltipped tooltipped-s js-socket-channel js-notification-indicator" data-channel="notification-changed:6734235" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
+          <span class="mail-status "></span>
+          <svg aria-hidden="true" class="octicon octicon-bell" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"></path></svg>
+</a>
+  </li>
+
+  <li class="dropdown js-menu-container">
+    <a class="header-navlink tooltipped tooltipped-s js-menu-target" href="https://github.com/new" aria-label="Create new…" aria-expanded="false" aria-haspopup="true" data-ga-click="Header, create new, icon:add">
+      <svg aria-hidden="true" class="octicon octicon-plus float-left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"></path></svg>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="https://github.com/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="https://github.com/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a class="dropdown-item" href="https://github.com/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="codepath/android_guides">This repository</span>
+  </div>
+    <a class="dropdown-item" href="https://github.com/codepath/android_guides/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="dropdown js-menu-container">
+    <a class="header-navlink name tooltipped tooltipped-sw js-menu-target" href="https://github.com/giangsoda" aria-label="View profile and more" aria-expanded="false" aria-haspopup="true" data-ga-click="Header, show menu, icon:avatar">
+      <img alt="@giangsoda" class="avatar" src="./Must Have Libraries · codepath_android_guides Wiki_files/6734235" height="20" width="20">
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <div class="dropdown-menu dropdown-menu-sw">
+        <div class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">giangsoda</strong>
+        </div>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="https://github.com/giangsoda" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a>
+        <a class="dropdown-item" href="https://github.com/giangsoda?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a>
+        <a class="dropdown-item" href="https://github.com/explore" data-ga-click="Header, go to explore, text:explore">
+          Explore
+        </a>
+        <a class="dropdown-item" href="https://help.github.com/" data-ga-click="Header, go to help, text:help">
+          Help
+        </a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="https://github.com/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a>
+
+        <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="cbd/HjE3ajS14QkZnxZjMjMfFvMcusIOXBqUGinqjko7Pw8fwlhP8HtLfr4KK//R8FgOdRBXqpH364kOZK3b7w=="></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </li>
+</ul>
+
+
+        <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="lDl0LZf8zAuUOgBleZCIqxmlQRxAlBode6IRsLAZrN/esQQsZJPpz1qQd8LsrRRI2uJZmkx5coLQUwyk/V75eg=="></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </div>
+</div>
+
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container="">
+      
+
+
+
+  
+
+
+
+    <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+      <div class="container repohead-details-container">
+
+        <ul class="pagehead-actions">
+  <li>
+        <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="JnPE89KzFC+k0nbZvgGqSYXPvDQF98gQbz+HUkAuc/JO53UXRaqHby6QPDmpSEOSy1Q9bDd9LL4zTLJG2BPDCQ=="></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="10788737">
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="https://github.com/codepath/android_guides/subscription" class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Toggle repository notifications menu" data-ga-click="Repository, click Watch settings, action:wiki#show">
+            <span class="js-select-button">
+                <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                Watch
+            </span>
+          </a>
+            <a class="social-count js-social-count" href="https://github.com/codepath/android_guides/watchers" aria-label="2031 users are watching this repository">
+              2,031
+            </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input checked="checked" id="do_included" name="do" type="radio" value="included">
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_subscribed" name="do" type="radio" value="subscribed">
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                        Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_ignore" name="do" type="radio" value="ignore">
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-mute" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"></path></svg>
+                        Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/codepath/android_guides/unstar" class="starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="cIBGKwrmdvG9l+fsZIugAL3FLDKRoKu8cLuliKKjMCMsDal/yDPFPv/E69mtAjf3BurtJThxWzQd1eQbqr2ftA=="></div>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar codepath/android_guides" data-ga-click="Repository, click unstar button, action:wiki#show; text:Unstar">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="https://github.com/codepath/android_guides/stargazers" aria-label="19170 users starred this repository">
+          19,170
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/codepath/android_guides/star" class="unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="LcbbH5n8iW33VWkSENEhA1oTFr8YR6QPZW/lX2+hvxDYXdGX8WrRnisqnzhAln0M1H5RLw+dIc0KZbACqw7GUQ=="></div>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Star this repository" title="Star codepath/android_guides" data-ga-click="Repository, click star button, action:wiki#show; text:Star">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="https://github.com/codepath/android_guides/stargazers" aria-label="19170 users starred this repository">
+          19,170
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#fork-destination-box" class="btn btn-sm btn-with-count" title="Fork your own copy of codepath/android_guides to your account" aria-label="Fork your own copy of codepath/android_guides to your account" rel="facebox" data-ga-click="Repository, show fork modal, action:wiki#show; text:Fork">
+              <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+            Fork
+          </a>
+
+          <div id="fork-destination-box" style="display: none;">
+            <h2 class="facebox-header" data-facebox-id="facebox-header">Where should we fork this repository?</h2>
+            <include-fragment src="" class="js-fork-select-fragment fork-select-fragment" data-url="/codepath/android_guides/fork?fragment=1">
+              <img alt="Loading" height="64" src="./Must Have Libraries · codepath_android_guides Wiki_files/octocat-spinner-128.gif" width="64">
+            </include-fragment>
+          </div>
+
+    <a href="https://github.com/codepath/android_guides/network" class="social-count" aria-label="4746 users forked this repository">
+      4,746
+    </a>
+  </li>
+</ul>
+
+        <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+  <span class="author" itemprop="author"><a href="https://github.com/codepath" class="url fn" rel="author">codepath</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="https://github.com/codepath/android_guides" data-pjax="#js-repo-pjax-container">android_guides</a></strong>
+
+</h1>
+
+      </div>
+      <div class="container">
+        
+<nav class="reponav js-repo-nav js-sidenav-container-pjax" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="navigation" data-pjax="#js-repo-pjax-container">
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="https://github.com/codepath/android_guides" class="js-selected-navigation-item reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /codepath/android_guides" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="https://github.com/codepath/android_guides/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /codepath/android_guides/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">83</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="https://github.com/codepath/android_guides/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /codepath/android_guides/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">1</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="https://github.com/codepath/android_guides/projects" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /codepath/android_guides/projects">
+      <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"></path></svg>
+      Projects
+      <span class="Counter">0</span>
+</a>
+    <a href="https://github.com/codepath/android_guides/wiki" class="js-selected-navigation-item selected reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /codepath/android_guides/wiki">
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+      Wiki
+</a>
+
+    <div class="reponav-dropdown js-menu-container">
+      <button type="button" class="btn-link reponav-item reponav-dropdown js-menu-target " data-no-toggle="" aria-expanded="false" aria-haspopup="true">
+        Insights
+        <svg aria-hidden="true" class="octicon octicon-triangle-down v-align-middle text-gray" height="11" version="1.1" viewBox="0 0 12 16" width="8"><path fill-rule="evenodd" d="M0 5l6 6 6-6z"></path></svg>
+      </button>
+      <div class="dropdown-menu-content js-menu-content">
+        <div class="dropdown-menu dropdown-menu-sw">
+          <a class="dropdown-item" href="https://github.com/codepath/android_guides/pulse" data-skip-pjax="">
+            <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"></path></svg>
+            Pulse
+          </a>
+          <a class="dropdown-item" href="https://github.com/codepath/android_guides/graphs" data-skip-pjax="">
+            <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"></path></svg>
+            Graphs
+          </a>
+        </div>
+      </div>
+    </div>
+</nav>
+
+      </div>
+    </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+  <div id="wiki-wrapper" class="wiki-wrapper page">
+  <div class="gh-header">
+    <div class="gh-header-show">
+          <div class="gh-header-actions">
+            <a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries/_edit" class="btn btn-sm ">Edit</a>
+            <a href="https://github.com/codepath/android_guides/wiki/_new" class="btn btn-sm btn-primary">New Page</a>
+          </div>
+      <h1 class="gh-header-title instapaper_title">Must Have Libraries</h1>
+        <div class="gh-header-meta">
+          Nathan Esquenazi edited this page <relative-time datetime="2017-07-21T18:33:46Z" title="Jul 22, 2017, 1:33 AM GMT+7">26 days ago</relative-time>
+          ·
+          <a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries/_history" class="history">
+            212 revisions
+          </a>
+        </div>
+    </div>
+  </div>
+  <div id="wiki-content" class="wiki-content">
+    <div class="has-rightbar">
+
+    <div id="wiki-rightbar" class="wiki-rightbar">
+      <div class="wiki-pages-box readability-sidebar boxed-group flush js-wiki-pages-box collapsed" role="navigation">
+        
+<h3 class="js-wiki-toggle-collapse wiki-auxiliary-content">
+  <svg aria-hidden="true" class="octicon octicon-triangle-down caret-expanded" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M0 5l6 6 6-6z"></path></svg>
+  <svg aria-hidden="true" class="octicon octicon-triangle-right caret-collapsed" height="16" version="1.1" viewBox="0 0 6 16" width="6"><path fill-rule="evenodd" d="M0 14l6-6-6-6z"></path></svg>
+  Pages <span class="Counter">193</span>
+</h3>
+<div class="boxed-group-inner wiki-auxiliary-content wiki-auxiliary-content-no-bg">
+    <div class="filter-bar">
+      <input type="text" id="wiki-pages-filter" class="form-control input-sm input-block js-filterable-field" placeholder="Find a Page…" aria-label="Find a Page…" tabindex="2">
+    </div>
+
+  <ul class="wiki-pages" data-filterable-for="wiki-pages-filter" data-filterable-type="substring">
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki" class="wiki-page-link">Home</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Accessing-the-Camera-and-Stored-Media" class="wiki-page-link">Accessing the Camera and Stored Media</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/ActionBar-Tabs-with-Fragments" class="wiki-page-link">ActionBar Tabs with Fragments</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/ActiveAndroid-Guide" class="wiki-page-link">ActiveAndroid Guide</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Activity-Lifecycle" class="wiki-page-link">Activity Lifecycle</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Android-Bootcamp-Cliffnotes" class="wiki-page-link">Android Bootcamp Cliffnotes</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Android-Design-Guidelines" class="wiki-page-link">Android Design Guidelines</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Android-Directory-Structure" class="wiki-page-link">Android Directory Structure</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Android-for-Work" class="wiki-page-link">Android for Work</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Android-Testing-Framework" class="wiki-page-link">Android Testing Framework</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Android-Testing-Options" class="wiki-page-link">Android Testing Options</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Android-Unit-and-Integration-testing" class="wiki-page-link">Android Unit and Integration testing</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Animations" class="wiki-page-link">Animations</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Applying-Data-Binding-for-Views" class="wiki-page-link">Applying Data Binding for Views</a></strong>
+    </li>
+    <li>
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Architecture-of-Android-Apps" class="wiki-page-link">Architecture of Android Apps</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Audio-Playback-and-Recording" class="wiki-page-link">Audio Playback and Recording</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Automating-Publishing-to-the-Play-Store" class="wiki-page-link">Automating Publishing to the Play Store</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Basic-Event-Listeners" class="wiki-page-link">Basic Event Listeners</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Basic-Painting-with-Views" class="wiki-page-link">Basic Painting with Views</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Basic-Todo-App-Tutorial" class="wiki-page-link">Basic Todo App Tutorial</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Beginning-Android-Resources" class="wiki-page-link">Beginning Android Resources</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Book-Search-Tutorial" class="wiki-page-link">Book Search Tutorial</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Bottom-Navigation-Views" class="wiki-page-link">Bottom Navigation Views</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Building-Data-driven-Apps-with-Firebase" class="wiki-page-link">Building Data driven Apps with Firebase</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Building-Data-driven-Apps-with-Parse" class="wiki-page-link">Building Data driven Apps with Parse</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Building-Gradle-Projects-with-Jenkins-CI" class="wiki-page-link">Building Gradle Projects with Jenkins CI</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Building-Simple-Chat-Client-with-Parse" class="wiki-page-link">Building Simple Chat Client with Parse</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Building-your-own-Android-library" class="wiki-page-link">Building your own Android library</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Chrome-Custom-Tabs" class="wiki-page-link">Chrome Custom Tabs</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Circular-Reveal-Animation" class="wiki-page-link">Circular Reveal Animation</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Clean-Persistence-with-Sugar-ORM" class="wiki-page-link">Clean Persistence with Sugar ORM</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Cloning-a-Login-Screen-Layout-Guide" class="wiki-page-link">Cloning a Login Screen Layout Guide</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/CodePath-Goal" class="wiki-page-link">CodePath Goal</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Collaborating-on-Projects-with-Git" class="wiki-page-link">Collaborating on Projects with Git</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Common-Implicit-Intents" class="wiki-page-link">Common Implicit Intents</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Common-Navigation-Paradigms" class="wiki-page-link">Common Navigation Paradigms</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Communicating-with-an-Event-Bus" class="wiki-page-link">Communicating with an Event Bus</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Configuring-a-Parse-Server" class="wiki-page-link">Configuring a Parse Server</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Configuring-ProGuard" class="wiki-page-link">Configuring ProGuard</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Connectivity-using-the-Bluetooth-API" class="wiki-page-link">Connectivity using the Bluetooth API</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Constructing-View-Layouts" class="wiki-page-link">Constructing View Layouts</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Consuming-APIs-with-Retrofit" class="wiki-page-link">Consuming APIs with Retrofit</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Contributing-back-to-Android" class="wiki-page-link">Contributing back to Android</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Contributing-Guidelines" class="wiki-page-link">Contributing Guidelines</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Converting-JSON-to-Models" class="wiki-page-link">Converting JSON to Models</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Crash-Reporting-with-Crashlytics" class="wiki-page-link">Crash Reporting with Crashlytics</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Crash-Reporting-with-Firebase" class="wiki-page-link">Crash Reporting with Firebase</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Creating-and-Executing-Async-Tasks" class="wiki-page-link">Creating and Executing Async Tasks</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Creating-and-Using-Fragments" class="wiki-page-link">Creating and Using Fragments</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Creating-App-Shortcuts-in-Launcher" class="wiki-page-link">Creating App Shortcuts in Launcher</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Creating-Content-Providers" class="wiki-page-link">Creating Content Providers</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Creating-Custom-Listeners" class="wiki-page-link">Creating Custom Listeners</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/DBFlow-Guide" class="wiki-page-link">DBFlow Guide</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Debugging-and-Profiling-Apps" class="wiki-page-link">Debugging and Profiling Apps</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Debugging-Exceptions-within-your-App" class="wiki-page-link">Debugging Exceptions within your App</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Debugging-with-Stetho" class="wiki-page-link">Debugging with Stetho</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Defining-Custom-Views" class="wiki-page-link">Defining Custom Views</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Defining-The-ActionBar" class="wiki-page-link">Defining The ActionBar</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Defining-Views-and-their-Attributes" class="wiki-page-link">Defining Views and their Attributes</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Dependency-Injection-with-Dagger-2" class="wiki-page-link">Dependency Injection with Dagger 2</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Design-Support-Library" class="wiki-page-link">Design Support Library</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Developing-Custom-Themes" class="wiki-page-link">Developing Custom Themes</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Fresco-Library" class="wiki-page-link">Displaying Images with the Fresco Library</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Glide-Library" class="wiki-page-link">Displaying Images with the Glide Library</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Picasso-Library" class="wiki-page-link">Displaying Images with the Picasso Library</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Displaying-the-Snackbar" class="wiki-page-link">Displaying the Snackbar</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Displaying-Toasts" class="wiki-page-link">Displaying Toasts</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Drawables" class="wiki-page-link">Drawables</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Drawing-with-OpenGL-and-GLSurfaceView" class="wiki-page-link">Drawing with OpenGL and GLSurfaceView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Dynamic-Color-using-Palettes" class="wiki-page-link">Dynamic Color using Palettes</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Easier-SQL-with-Cupboard" class="wiki-page-link">Easier SQL with Cupboard</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Effective-Java-for-Android" class="wiki-page-link">Effective Java for Android</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Endless-Scrolling-with-AdapterViews" class="wiki-page-link">Endless Scrolling with AdapterViews</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Endless-Scrolling-with-AdapterViews-and-RecyclerView" class="wiki-page-link">Endless Scrolling with AdapterViews and RecyclerView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Extended-ActionBar-Guide" class="wiki-page-link">Extended ActionBar Guide</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Extending-SurfaceView" class="wiki-page-link">Extending SurfaceView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Flexible-User-Interfaces" class="wiki-page-link">Flexible User Interfaces</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Floating-Action-Buttons" class="wiki-page-link">Floating Action Buttons</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/floating-action-buttons" class="wiki-page-link">floating action buttons</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Fragment-Navigation-Drawer" class="wiki-page-link">Fragment Navigation Drawer</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Free-Android-Curriculum" class="wiki-page-link">Free Android Curriculum</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Genymotion-2.0-Emulators-with-Google-Play-support" class="wiki-page-link">Genymotion 2.0 Emulators with Google Play support</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Gestures-and-Touch-Events" class="wiki-page-link">Gestures and Touch Events</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Getting-Started-with-Gradle" class="wiki-page-link">Getting Started with Gradle</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Google-Cloud-Messaging" class="wiki-page-link">Google Cloud Messaging</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Google-Maps-API-v2-Usage" class="wiki-page-link">Google Maps API v2 Usage</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Google-Maps-Fragment-Guide" class="wiki-page-link">Google Maps Fragment Guide</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Google-Play-Style-Tabs-using-TabLayout" class="wiki-page-link">Google Play Style Tabs using TabLayout</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Handling-Configuration-Changes" class="wiki-page-link">Handling Configuration Changes</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Handling-ProgressBars" class="wiki-page-link">Handling ProgressBars</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Handling-Scrolls-with-CoordinatorLayout" class="wiki-page-link">Handling Scrolls with CoordinatorLayout</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Heterogenous-Layouts-inside-RecyclerView" class="wiki-page-link">Heterogenous Layouts inside RecyclerView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Implementing-a-Heterogenous-ListView" class="wiki-page-link">Implementing a Heterogenous ListView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Implementing-a-Horizontal-ListView-Guide" class="wiki-page-link">Implementing a Horizontal ListView Guide</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Implementing-a-Rate-Me-Feature" class="wiki-page-link">Implementing a Rate Me Feature</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Implementing-Pull-to-Refresh-Guide" class="wiki-page-link">Implementing Pull to Refresh Guide</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Installing-Android-SDK-Tools" class="wiki-page-link">Installing Android SDK Tools</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/IntelliJ-2016.3.3-Android-Studio-Settings---Configurations--Config" class="wiki-page-link">IntelliJ 2016.3.3 Android Studio Settings   Configurations  Config</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Interacting-with-the-Calendar" class="wiki-page-link">Interacting with the Calendar</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Intermediate" class="wiki-page-link">Intermediate</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Keeping-Updated-with-Android" class="wiki-page-link">Keeping Updated with Android</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Lambda-Expressions" class="wiki-page-link">Lambda Expressions</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Leveraging-the-Gson-Library" class="wiki-page-link">Leveraging the Gson Library</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Listening-to-Sensors-using-SensorManager" class="wiki-page-link">Listening to Sensors using SensorManager</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Loading-Contacts-with-Content-Providers" class="wiki-page-link">Loading Contacts with Content Providers</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Local-Databases-with-SQLiteOpenHelper" class="wiki-page-link">Local Databases with SQLiteOpenHelper</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Managing-Runtime-Permissions-with-PermissionsDispatcher" class="wiki-page-link">Managing Runtime Permissions with PermissionsDispatcher</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Managing-Threads-and-Custom-Services" class="wiki-page-link">Managing Threads and Custom Services</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Material-Design-Primer" class="wiki-page-link">Material Design Primer</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Menus-and-Popups" class="wiki-page-link">Menus and Popups</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Migrating-to-the-AppCompat-Library" class="wiki-page-link">Migrating to the AppCompat Library</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Mobile-Screen-Archetypes" class="wiki-page-link">Mobile Screen Archetypes</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries" class="wiki-page-link">Must Have Libraries</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Navigation-and-Task-Stacks" class="wiki-page-link">Navigation and Task Stacks</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Networking-with-the-Fast-Android-Networking-Library" class="wiki-page-link">Networking with the Fast Android Networking Library</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Networking-with-the-Volley-Library" class="wiki-page-link">Networking with the Volley Library</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Notification-Services-(GeoFence,-Calendar)" class="wiki-page-link">Notification Services (GeoFence, Calendar)</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Notifications" class="wiki-page-link">Notifications</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Open-Source-projects-for-Android-development" class="wiki-page-link">Open Source projects for Android development</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Organizing-your-Source-Files" class="wiki-page-link">Organizing your Source Files</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Persisting-Data-to-the-Device" class="wiki-page-link">Persisting Data to the Device</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Polishing-a-UI-Tips-and-Tools" class="wiki-page-link">Polishing a UI Tips and Tools</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Popular-External-Tools" class="wiki-page-link">Popular External Tools</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Populating-a-ListView-with-a-CursorAdapter" class="wiki-page-link">Populating a ListView with a CursorAdapter</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Powerful-Persistence-with-JDXA-ORM" class="wiki-page-link">Powerful Persistence with JDXA ORM</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Presenting-an-Android-Device" class="wiki-page-link">Presenting an Android Device</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Progress-Bar-Custom-View" class="wiki-page-link">Progress Bar Custom View</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Publishing-to-the-Play-Store" class="wiki-page-link">Publishing to the Play Store</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Push-Messaging" class="wiki-page-link">Push Messaging</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Push-Notifications-Setup-for-Parse" class="wiki-page-link">Push Notifications Setup for Parse</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Real-time-Messaging" class="wiki-page-link">Real time Messaging</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Recording-Video-of-an-Android-Device" class="wiki-page-link">Recording Video of an Android Device</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Reducing-View-Boilerplate-with-Butterknife" class="wiki-page-link">Reducing View Boilerplate with Butterknife</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Repeating-Periodic-Tasks" class="wiki-page-link">Repeating Periodic Tasks</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Replacing-Enums-with-Enumerated-Annotations" class="wiki-page-link">Replacing Enums with Enumerated Annotations</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Retrieving-Location-with-LocationServices-API" class="wiki-page-link">Retrieving Location with LocationServices API</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Ripple-Animation" class="wiki-page-link">Ripple Animation</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Robolectric-Installation-for-Unit-Testing" class="wiki-page-link">Robolectric Installation for Unit Testing</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Rotten-Tomatoes-Networking-Tutorial" class="wiki-page-link">Rotten Tomatoes Networking Tutorial</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Running-Apps-on-Your-Device" class="wiki-page-link">Running Apps on Your Device</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/RxJava" class="wiki-page-link">RxJava</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/RxJava-and-RxBinding" class="wiki-page-link">RxJava and RxBinding</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Sample-Android-Apps" class="wiki-page-link">Sample Android Apps</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Sending-and-Managing-Network-Requests" class="wiki-page-link">Sending and Managing Network Requests</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Sending-and-Receiving-Data-with-Sockets" class="wiki-page-link">Sending and Receiving Data with Sockets</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Server-Synchronization-(SyncAdapter)" class="wiki-page-link">Server Synchronization (SyncAdapter)</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Setting-up-IntelliJ-IDEA" class="wiki-page-link">Setting up IntelliJ IDEA</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Setting-up-Travis-CI" class="wiki-page-link">Setting up Travis CI</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Settings-with-PreferenceFragment" class="wiki-page-link">Settings with PreferenceFragment</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Shared-Element-Activity-Transition" class="wiki-page-link">Shared Element Activity Transition</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Sharing-Content-with-Intents" class="wiki-page-link">Sharing Content with Intents</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Sliding-Tabs-with-PagerSlidingTabStrip" class="wiki-page-link">Sliding Tabs with PagerSlidingTabStrip</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Starting-Background-Services" class="wiki-page-link">Starting Background Services</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Storing-and-Accessing-SharedPreferences" class="wiki-page-link">Storing and Accessing SharedPreferences</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Storing-Secret-Keys-in-Android" class="wiki-page-link">Storing Secret Keys in Android</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Streaming-Youtube-Videos-with-YouTubePlayerView" class="wiki-page-link">Streaming Youtube Videos with YouTubePlayerView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Styles-and-Themes" class="wiki-page-link">Styles and Themes</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Styling-UI-Screens-FAQ" class="wiki-page-link">Styling UI Screens FAQ</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Troubleshooting-API-calls" class="wiki-page-link">Troubleshooting API calls</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Troubleshooting-Common-Issues" class="wiki-page-link">Troubleshooting Common Issues</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Troubleshooting-Common-Issues-with-Parse" class="wiki-page-link">Troubleshooting Common Issues with Parse</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Troubleshooting-Eclipse-Issues" class="wiki-page-link">Troubleshooting Eclipse Issues</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/UI-Testing-with-Espresso" class="wiki-page-link">UI Testing with Espresso</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/UI-Testing-with-Robotium" class="wiki-page-link">UI Testing with Robotium</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Understanding-App-Permissions" class="wiki-page-link">Understanding App Permissions</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Understanding-App-Resources" class="wiki-page-link">Understanding App Resources</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Understanding-the-Android-Application-Class" class="wiki-page-link">Understanding the Android Application Class</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Unit-Testing-with-Robolectric" class="wiki-page-link">Unit Testing with Robolectric</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-a-BaseAdapter-with-ListView" class="wiki-page-link">Using a BaseAdapter with ListView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView" class="wiki-page-link">Using an ArrayAdapter with ListView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-Android-Async-Http-Client" class="wiki-page-link">Using Android Async Http Client</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-Android-Studio" class="wiki-page-link">Using Android Studio</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-Context" class="wiki-page-link">Using Context</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-DialogFragment" class="wiki-page-link">Using DialogFragment</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-Intents-to-Create-Flows" class="wiki-page-link">Using Intents to Create Flows</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-Kotlin-for-Android-development" class="wiki-page-link">Using Kotlin for Android development</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-OkHttp" class="wiki-page-link">Using OkHttp</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-Parcelable" class="wiki-page-link">Using Parcelable</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-Parceler" class="wiki-page-link">Using Parceler</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-Retrofit-for-REST-Clients" class="wiki-page-link">Using Retrofit for REST Clients</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-the-App-Toolbar" class="wiki-page-link">Using the App Toolbar</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-the-CardView" class="wiki-page-link">Using the CardView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Using-the-RecyclerView" class="wiki-page-link">Using the RecyclerView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Video-Playback-and-Recording" class="wiki-page-link">Video Playback and Recording</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/View-Hierarchy-Animations" class="wiki-page-link">View Hierarchy Animations</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/ViewPager-with-FragmentPagerAdapter" class="wiki-page-link">ViewPager with FragmentPagerAdapter</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Working-with-Input-Views" class="wiki-page-link">Working with Input Views</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Working-with-the-EditText" class="wiki-page-link">Working with the EditText</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Working-with-the-ImageView" class="wiki-page-link">Working with the ImageView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Working-with-the-ScrollView" class="wiki-page-link">Working with the ScrollView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Working-with-the-Soft-Keyboard" class="wiki-page-link">Working with the Soft Keyboard</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Working-with-the-TextView" class="wiki-page-link">Working with the TextView</a></strong>
+    </li>
+    <li class="wiki-more-pages">
+      <strong><a href="https://github.com/codepath/android_guides/wiki/Working-with-the-WebView" class="wiki-page-link">Working with the WebView</a></strong>
+    </li>
+    <li class="wiki-more-pages-link">
+      <a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#" class="js-wiki-more-pages-link">
+        Show 178 more pages…
+      </a>
+    </li>
+  </ul>
+</div>
+
+      </div>
+
+        <div class="gollum-markdown-content readability-sidebar box box-small">
+          <div class="wiki-custom-sidebar wiki-writable markdown-body">
+              <a href="https://github.com/codepath/android_guides/wiki/_Sidebar/_edit" class="wiki-edit-link" title="Edit sidebar">
+                <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg>
+              </a>
+            <p><strong>Finding these guides helpful?</strong></p>
+<p>We need help from the broader community to improve these guides, add new topics and keep the topics up-to-date. See <a href="https://github.com/codepath/android_guides/wiki/Contributing-Guidelines">our contribution guidelines here</a> and <a href="https://github.com/codepath/android_guides/issues">our topic issues list</a> for great ways to help out.</p>
+<p>Check these <a href="http://guides.codepath.com/android">same guides through our standalone viewer</a> for a better browsing experience and an improved search. Follow us on <a href="https://twitter.com/codepath">twitter @codepath</a> for access to more useful Android development resources.</p>
+<p><strong>Interested in ramping up on Android quickly?</strong></p>
+<p>(US Only) If you are an existing engineer with 2+ years of professional experience in software development and are serious about ramping up on Android quickly, be sure to apply for our <a href="http://codepath.com/androidbootcamp">free evening 8-week Android bootcamp</a>.</p>
+<p>We've trained over a thousand engineers from top companies including Apple, Twitter, Airbnb, Uber, and many others leveraging this program. The course is taught by Android experts from the industry and is specifically designed for existing engineers.</p>
+<p><strong>Not in the United States?</strong> Please <a href="https://www.surveymonkey.com/r/codepath_interest_intake">fill out our application of interest form</a> and we’ll notify you as classes become available in your area powered by local organizers.</p>
+
+          </div>
+        </div>
+
+      <h5 class="mt-0 mb-2">Clone this wiki locally</h5>
+      <div class="width-full input-group js-zeroclipboard-container">
+        <input type="text" class="form-control input-sm text-small text-gray input-monospace js-url-field js-zeroclipboard-target" aria-label="Clone URL for this wiki" value="https://github.com/codepath/android_guides.wiki.git" readonly="readonly">
+        <span class="input-group-button">
+          <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><svg aria-hidden="true" class="octicon octicon-clippy" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></svg></button>
+        </span>
+      </div>
+
+
+    </div>
+
+    <div id="wiki-body" class="wiki-body gollum-markdown-content instapaper_body">
+        <div class="markdown-body">
+          <table>
+<thead>
+<tr>
+<th>-</th>
+<th>-</th>
+<th>-</th>
+<th>-</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#overview">Overview</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#standard-pack">Standard Pack</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#advanced-pack">Advanced Pack</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#convenience">Convenience</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#extensions">Extensions</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#networking">Networking</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#listview">ListView</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#recyclerview">RecyclerView</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#easy-navigation">Easy Navigation</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#ui-components">UI Components</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#drawing">Drawing</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#image-processing">Image Processing</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#scanning">Scanning</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#persistence">Persistence</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#binding">Binding</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#compatibility">Compatibility</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#scrolling-and-parallax">Scrolling And Parallax</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#debugging">Debugging</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#resources">Resources</a></td>
+<td><a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#references">References</a></td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-overview" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#overview" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h2>
+<p>There are many third-party libraries for Android but several of them are "must have" libraries that are extremely popular and are often used in almost any Android project. Each has different purposes but all of them make life as a developer much more pleasant. The major libraries are listed below in a few categories.</p>
+<h3>
+<a id="user-content-standard-pack" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#standard-pack" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Standard Pack</h3>
+<p>This "standard pack" listed below are libraries that are quite popular, widely applicable and should probably be setup within most Android apps:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="internal present" href="https://github.com/codepath/android_guides/wiki/Consuming-APIs-with-Retrofit">Retrofit</a></td>
+<td>A type-safe REST client for Android which intelligently maps an API into a client interface using annotations.</td>
+</tr>
+<tr>
+<td><a class="internal present" href="https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Glide-Library">Glide</a></td>
+<td>A powerful image downloading and caching library for Android.</td>
+</tr>
+<tr>
+<td><a class="internal present" href="https://github.com/codepath/android_guides/wiki/Reducing-View-Boilerplate-with-Butterknife">ButterKnife</a></td>
+<td>Using Java annotations, makes Android development better by simplifying common tasks.</td>
+</tr>
+<tr>
+<td><a class="internal present" href="https://github.com/codepath/android_guides/wiki/Using-Parceler">Parceler</a></td>
+<td>Android Parcelable made easy through code generation</td>
+</tr>
+<tr>
+<td><a href="https://github.com/frankiesardo/icepick">IcePick</a></td>
+<td>Android Instance State made easy</td>
+</tr>
+<tr>
+<td><a href="https://github.com/square/leakcanary">LeakCanary</a></td>
+<td>Catch memory leaks in your apps</td>
+</tr>
+<tr>
+<td><a class="internal present" href="https://github.com/codepath/android_guides/wiki/UI-Testing-with-Espresso">Espresso</a></td>
+<td>Powerful DSL for Android integration testing</td>
+</tr>
+<tr>
+<td><a class="internal present" href="https://github.com/codepath/android_guides/wiki/Unit-Testing-with-Robolectric">Robolectric</a></td>
+<td>Efficient unit testing for Android</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-advanced-pack" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#advanced-pack" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Advanced Pack</h3>
+<p>The "advanced pack" listed below are additional libraries that are more advanced to use but are popular amongst some of the best Android teams. Note that these libraries may not be suitable for your first app. These advanced libraries include:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="internal present" href="https://github.com/codepath/android_guides/wiki/Dependency-Injection-with-Dagger-2">Dagger 2</a></td>
+<td>A fast dependency injector for managing objects.</td>
+</tr>
+<tr>
+<td><a class="internal present" href="https://github.com/codepath/android_guides/wiki/RxJava">RxJava</a></td>
+<td>Develop fully reactive components for Android.</td>
+</tr>
+<tr>
+<td><a class="internal present" href="https://github.com/codepath/android_guides/wiki/Communicating-with-an-Event-Bus">EventBus</a></td>
+<td>Android event bus for easier component communication.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/excilys/androidannotations">AndroidAnnotations</a></td>
+<td>Powerful annotations to reduce boilerplate code.</td>
+</tr>
+<tr>
+<td><a class="internal present" href="https://github.com/codepath/android_guides/wiki/Lambda-Expressions">Retrolambda</a></td>
+<td>Bringing lambda block support to Android.</td>
+</tr>
+</tbody>
+</table>
+<p>Keep in mind that the combination of these libraries may not always play nicely with each other.  The following section highlights some of these issues.</p>
+<h4>
+<a id="user-content-parceler-and-icepick" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#parceler-and-icepick" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Parceler and IcePick</h4>
+<p>Note that you cannot use IcePick at the current time to save state of Parceler objects. See <a href="https://github.com/frankiesardo/icepick/pull/20">this GitHub issue</a> for more context on why they are incompatible. You will need to use explicitly Parcelable objects with IcePick. You may consider replacing Parceler with <a href="https://github.com/frankiesardo/auto-parcel">AutoParcel</a> which works seamlessly with IcePick.</p>
+<h4>
+<a id="user-content-butterknife-and-parceler" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#butterknife-and-parceler" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ButterKnife and Parceler</h4>
+<p>Using the Butterknife library with the Parceler library causes multiple declarations of javax.annotation.processing.Processor.  In this case, you have to exclude this conflict in your <code>app/build.gradle</code> file:</p>
+<div class="highlight highlight-source-groovy-gradle"><pre>   <span class="pl-en">packagingOptions</span> {
+        exclude <span class="pl-s"><span class="pl-pds">'</span>META-INF/services/javax.annotation.processing.Processor<span class="pl-pds">'</span></span>  <span class="pl-c"><span class="pl-c">//</span> butterknife</span>
+    }</pre></div>
+<h4>
+<a id="user-content-butterknife-and-custom-views" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#butterknife-and-custom-views" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ButterKnife and Custom Views</h4>
+<p>Often you may find that using ButterKnife or Dagger injections defined in your constructor prevent Android Studio to preview your Custom View layout.  You may see an error about needing <code>isEditMode()</code> defined.
+Essentially this method is used to enable your code to short-circuit before executing a section of code that might be used for run-time but cannot be executed within the preview window.</p>
+<div class="highlight highlight-source-java"><pre>  <span class="pl-k">public</span> ContentEditorView(<span class="pl-smi">Context</span> context, <span class="pl-smi">AttributeSet</span> attrs) {
+        <span class="pl-c1">super</span>(context, attrs);
+
+        <span class="pl-smi">LayoutInflater</span> inflater <span class="pl-k">=</span> (<span class="pl-smi">LayoutInflater</span>) context
+                .getSystemService(<span class="pl-smi">Context</span><span class="pl-c1"><span class="pl-k">.</span>LAYOUT_INFLATER_SERVICE</span>);
+
+        inflater<span class="pl-k">.</span>inflate(<span class="pl-smi">R</span><span class="pl-k">.</span>layout<span class="pl-k">.</span>view_custom, <span class="pl-c1">this</span>, <span class="pl-c1">true</span>);
+
+        <span class="pl-c"><span class="pl-c">//</span> short circuit here inside the layout editor</span>
+        <span class="pl-k">if</span>(isInEditMode()) {
+            <span class="pl-k">return</span>;
+        }
+
+        <span class="pl-smi">ButterKnife</span><span class="pl-k">.</span>bind(<span class="pl-c1">this</span>);</pre></div>
+<h3>
+<a id="user-content-convenience" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#convenience" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Convenience</h3>
+<ul>
+<li>
+<a href="http://square.github.io/dagger/">Dagger</a> - A fast dependency injector for Android and Java.  See this <a href="http://www.infoq.com/presentations/Dagger">video intro</a> from Square.</li>
+<li>
+<a href="http://spork.bytewelder.com/">Spork</a> - Spork is an annotation processing library to speed up development on your projects. It allows you to write less boilerplate code to make your code more readable and maintainable.</li>
+<li>
+<a href="https://github.com/frankiesardo/auto-parcel">AutoParcel</a> - Port of Google AutoValue for Android with Parcelable generation goodies.</li>
+<li>
+<a href="https://github.com/JakeWharton/hugo">Hugo</a> - Easier logging within your app</li>
+<li>
+<a href="https://github.com/orhanobut/logger">Logger</a> - Much cleaner and easier logcat trace messages</li>
+<li>
+<a href="https://github.com/excilys/androidannotations">AndroidAnnotations</a> - Framework that speeds up Android development. It takes care of the plumbing, and lets you concentrate on what's really important. By simplifying your code, it facilitates its maintenance</li>
+<li>
+<a href="https://github.com/chrisjenx/Calligraphy">Calligraphy</a> - Custom fonts made easy</li>
+<li>
+<a href="https://github.com/vsvankhede/easyfonts">EasyFonts</a> - Easy preloaded custom fonts in your app</li>
+<li>
+<a href="https://github.com/daimajia/AndroidViewAnimations">AndroidViewAnimations</a> - Common property animations made easy</li>
+<li>
+<a href="https://github.com/mikepenz/AboutLibraries">AboutLibraries</a> - Automatically generates an <em>About this app</em> section, with a list of used libraries</li>
+<li>
+<a href="https://github.com/nisrulz/easydeviceinfo">EasyDeviceInfo</a> - Get device information in a super easy way</li>
+<li>
+<a href="https://github.com/nisrulz/sensey">Sensey</a> - Detecting gestures in a snap.</li>
+<li>
+<a href="https://github.com/geniushkg/github-oauth">OAuthLibGithub</a> - Easily add Authentication using Github API.</li>
+<li>
+<a href="https://github.com/JakeWharton/timber">Timber</a> - A logger with a small, extensible API which provides utility on top of Android's normal Log class.</li>
+<li>
+<a href="https://github.com/ihsanbal/LoggingInterceptor">LoggingInterceptor</a> - An OkHttp interceptor which pretty logs request and response data.</li>
+<li>
+<a href="https://github.com/PrivacyStreams/PrivacyStreams">PrivacyStreams</a> - Access and process various types of personal data in Android with an easy, uniform, and privacy-friendly API.</li>
+</ul>
+<h3>
+<a id="user-content-extensions" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#extensions" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Extensions</h3>
+<ul>
+<li>
+<a href="https://github.com/ReactiveX/RxJava">RxJava</a> - Reactive Extensions for the JVM</li>
+<li>
+<a href="https://github.com/greenrobot/EventBus">EventBus</a> - Android optimized event bus that simplifies communication between components.</li>
+<li>
+<a href="https://github.com/SysdataItaliaSpA/UniversalEventBus">EventBus</a> - An Android Event Bus Architecture</li>
+<li>
+<a href="http://square.github.io/tape/">Tape</a> - Tape is a collection of queue-related classes for Android and Java</li>
+<li>
+<a href="https://github.com/yigit/android-priority-jobqueue">Priority Job Queue</a> - Easier background tasks</li>
+<li>
+<a href="http://acra.ch/">ACRA</a> - Crash reporting made easy and free. Check the <a href="https://github.com/ACRA/acra/wiki/BasicSetup">setup instructions</a> and <a href="https://github.com/ACRA/acralyzer">open-source backend</a>.</li>
+</ul>
+<h3>
+<a id="user-content-networking" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#networking" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Networking</h3>
+<ul>
+<li>
+<a href="http://square.github.io/retrofit/">Retrofit</a> - A type-safe REST client for Android and Java which intelligently maps an API into a client interface using annotations.</li>
+<li>
+<a href="http://square.github.io/picasso/">Picasso</a> - A powerful image downloading and caching library for Android.</li>
+<li>
+<a href="https://github.com/koush/ion">Ion</a> - Powerful asynchronous networking library. <a href="https://github.com/koush/ion#get-ion">Download</a> as a jar here.</li>
+<li>
+<a href="http://loopj.com/android-async-http/">Android Async HTTP</a> - Asynchronous networking client for loading remote content such as JSON.</li>
+<li>
+<a href="http://developer.android.com/training/volley/index.html">Volley</a> - Google's HTTP library that makes networking for Android apps easier and most importantly, faster.</li>
+<li>
+<a class="internal present" href="https://github.com/codepath/android_guides/wiki/Using-OkHttp">OkHttp</a> - Square's underlying networking library with support for asynchronous requests.</li>
+<li>
+<a class="internal present" href="https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Glide-Library">Glide</a> - Picasso image loading alternative endorsed by Google</li>
+<li>
+<a href="https://github.com/nostra13/Android-Universal-Image-Loader">Android Universal Image Loader</a> - Popular alternative for image loading that can replace Picasso or Glide.</li>
+<li>
+<a href="http://frescolib.org/">Fresco</a> - An image management library from Facebook.</li>
+<li>
+<a href="https://github.com/amitshekhariitbhu/Fast-Android-Networking">Fast Android Networking</a> -Fast Android Networking is a powerful library for doing any type of networking in Android applications which is made on top of OkHttp Networking Layer.</li>
+</ul>
+<h3>
+<a id="user-content-listview" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#listview" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ListView</h3>
+<ul>
+<li>
+<a href="https://github.com/birajpatel/EasyListViewAdapters">EasyListViewAdapters</a> - Building multi-row-type listview made much cleaner &amp; easier.</li>
+<li>
+<a href="https://github.com/birajpatel/GridListViewAdapters">GridListViewAdapters</a> - Easily build unlimited Grid cards list like play-store. (ListView working as unlimited GridView)</li>
+<li>
+<a href="https://github.com/emilsjolander/StickyListHeaders">StickyListHeaders</a> - An android library for section headers that stick to the top of a ListView</li>
+<li>
+<a href="https://github.com/beworker/pinned-section-listview">PinnedListView</a> - Pinned Section with ListView</li>
+<li>
+<a href="https://github.com/nhaarman/ListViewAnimations">ListViewAnimations</a> - Easy way to animate ListView items (<strong>DEPRECATED</strong>)</li>
+<li>
+<a href="https://github.com/gabrielemariotti/cardslib">Cardslib</a> - Card UI for Lists or Grids</li>
+<li>
+<a href="https://github.com/erikwt/PullToRefresh-ListView">PullToRefresh-ListView</a> - Easy to use pull-to-refresh functionality for ListViews. <a href="https://github.com/erikwt/PullToRefresh-ListView/archive/master.zip">Download</a> and install as a <a href="http://imgur.com/a/N8baF">library project</a>.</li>
+<li>
+<a href="https://github.com/lawloretienne/QuickReturn">QuickReturn</a> - Reveal or hide a header or footer as the list is scrolled in a direction.</li>
+<li>
+<a href="https://github.com/ISchwarz23/SortableTableView">SortableTableView</a> - The library enables you to display your data in a table and provides numerous customization possibilities. The api was designed very android like so the usage is intuitive for experienced android developers.</li>
+<li>
+<a href="https://github.com/ojinxy/AndroidComponents">Paginated Table</a> - This is a table which allows dynamic paging for any list of objects. Icons can be added to columns as well as custom items such as check boxes and buttons.</li>
+</ul>
+<h3>
+<a id="user-content-recyclerview" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#recyclerview" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>RecyclerView</h3>
+<ul>
+<li>
+<a href="https://github.com/Joseph82/PinnedList-Android">PinnedList-Android</a> - A library that allows you to create a list of items that are pinned by a floating label (text or image) on the left of the list</li>
+<li>
+<a href="https://github.com/cymcsg/UltimateRecyclerView">UltimateRecyclerView</a> - Augmented RecyclerView with refreshing, loading more, animation and many other features.</li>
+<li>
+<a href="https://github.com/h6ah4i/android-advancedrecyclerview">AdvRecyclerView</a> - Extended RecyclerView with swipe to dismiss, and draggable or expanding items.</li>
+<li>
+<a href="https://github.com/kanytu/android-parallax-recyclerview">android-parallax-recyclerview</a> - An adapter which could be used to achieve a parallax effect on RecyclerView.</li>
+<li>
+<a href="https://github.com/timehop/sticky-headers-recyclerview">sticky-headers-recyclerview</a> - Sticky Headers decorator for Android's RecyclerView.</li>
+<li>
+<a href="https://github.com/mikepenz/FastAdapter">FastAdapter</a> - Simplify and speed up the process of filling your RecyclerView with data</li>
+<li>
+<a href="https://github.com/davideas/FlexibleAdapter">FlexibleAdapter</a> - Fast and versatile Adapter for RecyclerView which regroups several features into one library to considerably improve the user experience.</li>
+<li>
+<a href="https://github.com/mikepenz/ItemAnimators">ItemAnimators</a> - RecyclerView animators to animate item add/remove/add/move</li>
+<li>
+<a href="https://github.com/500px/greedo-layout-for-android">GreedoLayout</a> - Full aspect ratio grid LayoutManager for Android's RecyclerView</li>
+<li>
+<a href="https://github.com/BelooS/ChipsLayoutManager">ChipsLayoutManager</a> - RecyclerView's LayoutManager which moves item to the next line when no space left on the current. Can represent google material chips guideline or tags view.</li>
+<li>
+<a href="https://github.com/nisrulz/recyclerviewhelper">RecyclerViewHelper</a> - Provides the most common functions around recycler view like Swipe to dismiss, Drag and Drop, Divider in the ui, events for when item selected and when not selected, on-click listener for items.</li>
+<li>
+<a href="https://github.com/Ericliu001/async-expandable-list">async-expandable-list</a> - async-expandable-list provides solutions to displaying header-sub-items structure with simple api and asynchronously loading sub-list into an expandable list.</li>
+<li>
+<a href="https://github.com/airbnb/epoxy">Epoxy</a> - Epoxy is an Android library for building complex screens in a RecyclerView.</li>
+</ul>
+<h3>
+<a id="user-content-easy-navigation" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#easy-navigation" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Easy Navigation</h3>
+<ul>
+<li>
+<a href="https://github.com/jfeinstein10/JazzyViewPager">JazzyViewPager</a> - Pager with more animations</li>
+<li>
+<a href="https://github.com/prolificinteractive/ParallaxPager">ParallaxPager</a> - ViewPager with Parallax scrolling effects</li>
+<li>
+<a href="https://github.com/kmshack/Android-ParallaxHeaderViewPager">ParallaxHeaderViewPager</a> - Another ViewPager with Parallax scrolling effects</li>
+<li>
+<a href="https://github.com/xgc1986/ParallaxPagerTransformer">ParallaxPagerTransformer</a> - A pager transformer for Android with parallax effect</li>
+<li>
+<a href="https://github.com/jfeinstein10/SlidingMenu">SlidingMenu</a> - Library that allows developers to easily create applications with sliding menus like those made popular in the Google+, YouTube, and Facebook apps.</li>
+<li>
+<a href="https://github.com/siyamed/android-satellite-menu/">Android Satellite Menu</a> - Radial menu which is configurable reminiscent of the "Path" menu style.</li>
+<li>
+<a href="https://github.com/daCapricorn/ArcMenu">ArcMenu</a> - Alternate radial menu modeled after the "Path" menu style.</li>
+<li>
+<a href="https://github.com/umano/AndroidSlidingUpPanel">AndroidSlidingUpPanel</a> - Sliding Up Panel</li>
+<li>
+<a href="https://github.com/pedrovgs/DraggablePanel">DraggablePanel</a> - Panels that can be dragged</li>
+<li>
+<a href="https://github.com/mikepenz/MaterialDrawer/">MaterialDrawer</a> - Easily add a Navigation Drawer with Material style and AccountSwitcher</li>
+</ul>
+<h3>
+<a id="user-content-ui-components" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#ui-components" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>UI Components</h3>
+<ul>
+<li>
+<a href="https://github.com/gofynd/gravity-view">Gravity View</a> - Library for image tilt using sensor</li>
+<li>
+<a href="https://github.com/varunest/SparkButton">SparkButton</a> - Library to create buttons with Twitter's heart like animation.</li>
+<li>
+<a href="https://github.com/derekbrameyer/android-betterpickers">BetterPickers</a> - BetterPickers for easy input selection.</li>
+<li>
+<a href="https://github.com/davideas/FlipView">FlipView</a> - Flipping views like Gmail &amp; beyond.</li>
+<li>
+<a href="https://github.com/siyamed/android-shape-imageview">android-shape-imageview</a> - Custom shaped android imageview components including bubble, star, heart, diamond.</li>
+<li>
+<a href="https://github.com/vinc3m1/RoundedImageView">RoundedImageView</a> - Easily round corners or create oval-shaped images with this popular library.</li>
+<li>
+<a href="https://github.com/kikoso/android-stackblur">Android StackBlur</a> - Dynamically blur images</li>
+<li>
+<a href="https://github.com/wonderkiln/blurkit-android">BlurKit for Android</a> -  Fast blur-behind layout that parallels iOS.</li>
+<li>
+<a href="https://github.com/Bearded-Hen/Android-Bootstrap">Android Bootstrap</a> - Bootstrap UI widgets</li>
+<li>
+<a href="https://github.com/chrisbanes/PhotoView">PhotoView</a> - ImageView that supports touch gestures</li>
+<li>
+<a href="https://github.com/amlcurran/ShowcaseView">ShowcaseView</a> - Highlight the best bits of your app</li>
+<li>
+<a href="https://github.com/ManuelPeinado/FadingActionBar">FadingActionBar</a> - Cool actionbar fade effect</li>
+<li>
+<a href="https://github.com/daimajia/AndroidViewAnimations">AndroidViewAnimations</a> - Easily apply common animations</li>
+<li>
+<a href="https://github.com/Todd-Davies/ProgressWheel">ProgressWheel</a> - Better progress bar</li>
+<li>
+<a href="https://github.com/castorflex/SmoothProgressBar">SmoothProgressBar</a> - Horizontal indeterminate progress</li>
+<li>
+<a href="https://github.com/lopspower/CircularFillableLoaders">CircularFillableLoaders</a> - Beautiful animated fillable loaders</li>
+<li>
+<a href="http://facebook.github.io/rebound/">Rebound</a> - Easy spring dynamics</li>
+<li>
+<a href="https://github.com/daimajia/AndroidImageSlider">AndroidImageSlider</a> - Animated image transitions</li>
+<li>
+<a href="https://github.com/makovkastar/FloatingActionButton">FloatingActionButton</a> - Material design floating buttons made easy</li>
+<li>
+<a href="https://github.com/anton46/Foursquare-CollectionPicker">Foursquare-CollectionPicker</a> - Item Picker which looks like Foursquare Tastes picker</li>
+<li>
+<a href="https://github.com/dkharrat/NexusDialog">NexusDialog</a> - Create form dialogs easily</li>
+<li>
+<a href="https://github.com/orhanobut/dialogplus">dialogplus</a> - Simple, easy dialogs</li>
+<li>
+<a href="https://github.com/JoanZapata/android-iconify">Iconify</a> - Easily embed icons into your app</li>
+<li>
+<a href="https://github.com/anton46/Android-StepsView">Android StepsView</a> - A library to create StepsView for Android</li>
+<li>
+<a href="https://github.com/chrisbanes/PhotoView">PhotoView</a> - A library to pinch zoom in and zoom out and double tap zoom for Android</li>
+<li>
+<a href="https://github.com/mikepenz/Android-Iconics">Android-Iconics</a> - Add many scalable and styleable icons into your app</li>
+<li>
+<a href="https://github.com/lyft/scissors">Scissors</a> - An easy image cropping library developed by Lyft.</li>
+<li>
+<a href="https://github.com/MiguelCatalan/MaterialSearchView">Material-SearchView</a> - Beautiful Material SearchView made simple.</li>
+<li>
+<a href="https://github.com/arimorty/floatingsearchview">PersistentSearchBar</a> - Implementation of a persistent search bar.</li>
+<li>
+<a href="https://github.com/TangoAgency/material-intro-screen/">Android Material Intro Screen</a> - Library for easily adding intro screen to app.</li>
+</ul>
+<h3>
+<a id="user-content-drawing" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#drawing" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Drawing</h3>
+<ul>
+<li>
+<a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a> - A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.</li>
+<li>
+<a href="https://github.com/Androguide/HoloGraphLibrary">HoloGraphLibrary</a> - Newer graphing library</li>
+<li>
+<a href="https://github.com/blackfizz/EazeGraph">EazeGraph</a> - Another newer library with potential</li>
+<li>
+<a href="https://github.com/dacer/AndroidCharts">AndroidCharts</a> - Easy to use charts</li>
+<li>
+<a href="http://android-graphview.org/">AndroidGraphView</a> - library to create flexible and nice-looking diagrams.</li>
+<li>
+<a href="http://androidplot.com/docs/quickstart/">AndroidPlot</a> - plotting library for Android</li>
+<li>
+<a href="https://github.com/diogobernardino/WilliamChart">WilliamChart</a> - Flexible charting library with useful motion capabilities.</li>
+<li>
+<a href="https://github.com/lecho/hellocharts-android">HelloCharts</a> - Charts/graphs library for Android with support for scaling, scrolling and animations.</li>
+<li>
+<a href="https://github.com/plattysoft/Leonids">Leonids</a> - Simple and easy particle effects (<a href="http://www.plattysoft.com/2014/05/30/leonids-particle-system-lib/">See Tutorial</a>)</li>
+<li>
+<a href="https://github.com/jinatonic/confetti">Confetti</a> - Newer particle effects library.</li>
+<li>
+<a href="https://github.com/DanielMartinus/Konfetti">Konfetti</a> - Alternative light-weight confetti particle system</li>
+<li>
+<a href="http://jaxenter.com/effort-free-graphs-on-android-with-achartengine-46199.html">AChartEngine</a> - This is a charting software library for Android applications</li>
+</ul>
+<h3>
+<a id="user-content-image-processing" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#image-processing" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Processing</h3>
+<ul>
+<li>
+<a href="https://github.com/zomato/androidphotofilters">AndroidPhotoFilters</a> - Library to create interesting effects on any image of your choice. Comes with prebuilt great sample effects.</li>
+<li>
+<a href="https://github.com/CyberAgent/android-gpuimage">android-gpuimage</a> - Popular GPU Image Processing</li>
+<li>
+<a href="https://github.com/ragnraok/android-image-filter">android-image-filter</a> - Older image filtering library</li>
+<li>
+<a href="https://github.com/wasabeef/picasso-transformations">picasso-transformations</a> - Library for processing images via Picasso</li>
+<li>
+<a href="https://github.com/wasabeef/glide-transformations">glide-transformations</a> - Process images via Glide</li>
+<li>
+<a href="https://github.com/mnafian/ImageEffectFilter">ImageEffectFilter</a> - Sample code for processing images.</li>
+<li>
+<a href="https://github.com/krazykira/VidEffects">VidEffects</a> - Apply manipulation effects to videos.</li>
+</ul>
+<h3>
+<a id="user-content-scanning" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#scanning" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scanning</h3>
+<ul>
+<li>
+<a href="https://github.com/zxing/zxing">ZXing</a> - Barcode or QR scanner</li>
+<li>
+<a href="https://github.com/journeyapps/zxing-android-embedded">ZXing Android Embedded</a> - Alternative zxing scanner</li>
+<li>
+<a href="https://github.com/dm77/barcodescanner">barcodescanner</a> - Newer alternative</li>
+<li>
+<a href="https://github.com/LivotovLabs/CamView">CamView</a> - ZXing alternative</li>
+<li>
+<a href="https://code.google.com/p/android-quick-response-code/">android-quick-response-code</a> - Another alternative</li>
+</ul>
+<h3>
+<a id="user-content-persistence" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#persistence" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Persistence</h3>
+<ul>
+<li><a class="internal present" href="https://github.com/codepath/android_guides/wiki/ActiveAndroid-Guide">ActiveAndroid</a></li>
+<li>
+<a class="internal present" href="https://github.com/codepath/android_guides/wiki/DBFlow-Guide">DBFlow</a> - A robust, powerful, and very simple ORM android database library with annotation processing.</li>
+<li><a href="https://github.com/greenrobot/greenDAO">greenDAO</a></li>
+<li><a href="http://satyan.github.io/sugar/">SugarORM</a></li>
+<li>
+<a href="https://github.com/VictorAlbertos/RxCache">RxCache</a> - Reactive caching library for Android</li>
+<li>
+<a href="https://github.com/gfx/Android-Orma">Android-Orma</a> - A type-safe ORM for Android as a wrapper of SQLiteDatabase</li>
+<li><a href="http://ormlite.com/sqlite_java_android_orm.shtml">ORMLite</a></li>
+<li>
+<a href="https://github.com/square/sqlbrite">SQLBrite</a> - Lightweight wrapper around SQLiteOpenHelper</li>
+<li>
+<a class="internal present" href="https://github.com/codepath/android_guides/wiki/Easier-SQL-with-Cupboard">Cupboard</a> - Popular take on SQL wrapper</li>
+<li>
+<a href="https://github.com/pushtorefresh/storio">StorIO</a> - Fresh take on a light SQL wrapper</li>
+<li><a href="https://github.com/realm/realm-java">Realm</a></li>
+<li><a href="https://github.com/dkharrat/NexusData">NexusData</a></li>
+<li>
+<a href="https://github.com/orhanobut/hawk">Hawk</a> - Persistent secure key/value store</li>
+<li>
+<a href="https://github.com/elastique/poetry">Poetry</a> - Persist JSON directly into SQLite</li>
+<li>
+<a href="http://softwaretree.com/v1/products/jdxa/jdxa.html">JDXA</a> - The KISS ORM for Android - Simple, Non-intrusive, and Flexible</li>
+<li>
+<a href="https://github.com/SimonVT/schematic">Schematic</a> - Generate the SQLite and ContentProvider code</li>
+<li>
+<a href="https://github.com/Jamling/Android-ORM">AORM</a> - Simple ORM mapping, generate SQLite table</li>
+</ul>
+<h3>
+<a id="user-content-binding" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#binding" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Binding</h3>
+<ul>
+<li>
+<a href="https://github.com/radzio/android-data-binding-recyclerview">RecyclerViewBinding</a> - Library for easily add recycler view data bindings.</li>
+<li>
+<a href="https://github.com/radzio/android-data-binding-command">CommandDataBinding</a> - Library for better handling onClick actions.</li>
+</ul>
+<h3>
+<a id="user-content-compatibility" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#compatibility" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compatibility</h3>
+<ul>
+<li>
+<a href="http://nineoldandroids.com/">NineOldAndroids</a> - Fully compatible animation library that works with all versions of Android. Widely used. <a href="https://github.com/JakeWharton/NineOldAndroids/zipball/master">Download</a> and install as a <a href="http://imgur.com/a/N8baF">library project</a>.</li>
+<li>
+<a href="https://github.com/Prototik/HoloEverywhere">HoloEverywhere</a> - Backport Holo theme from Android 4.2 to 2.1+</li>
+<li>
+<a href="https://github.com/biokys/cropimage">CropImage</a> - Simple compatible cropping intent for images</li>
+</ul>
+<h3>
+<a id="user-content-scrolling-and-parallax" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#scrolling-and-parallax" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scrolling and Parallax</h3>
+<p>This is a list of popular scrolling and parallax libraries:</p>
+<ul>
+<li>
+<a href="https://github.com/lawloretienne/QuickReturn">QuickReturn</a> - Reveal or hide a header or footer as the list is scrolled in a direction. (<strong>DEPRECATED</strong>)</li>
+<li>
+<a href="https://github.com/xgc1986/ParallaxPagerTransformer">ParallaxPagerTransformer</a> - A pager transformer for Android with parallax effect</li>
+<li>
+<a href="https://github.com/kmshack/Android-ParallaxHeaderViewPager">ParallaxHeaderViewPager</a> - Another ViewPager with Parallax scrolling effects</li>
+<li>
+<a href="https://github.com/ksoichiro/Android-ObservableScrollView">Android-ObservableScrollView</a> - Android library to observe scroll events on scrollable views.</li>
+<li>
+<a href="https://github.com/noties/Scrollable">Scrollable</a> - Automatic scrolling logic when implementing scrolling tabs</li>
+<li>
+<a href="https://github.com/prolificinteractive/ParallaxPager">ParallaxPager</a> - ViewPager with Parallax scrolling effects</li>
+<li>
+<a href="https://github.com/kanytu/android-parallax-recyclerview">android-parallax-recyclerview</a> - An adapter which could be used to achieve a parallax effect on RecyclerView.</li>
+</ul>
+<h3>
+<a id="user-content-debugging" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#debugging" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Debugging</h3>
+<ul>
+<li>
+<a href="http://facebook.github.io/stetho/">Stetho</a> - A debug bridge for Android applications which could be used for multiple purposes not limited to Network Inspection, Database Inspection and Javascript Console.</li>
+<li>
+<a href="https://github.com/amitshekhariitbhu/Android-Debug-Database">Android Debug Database</a> - Android Debug Database allows you to view databases and shared preferences directly in your browser in a very simple way.</li>
+<li>
+<a href="https://github.com/bugfender/bugfender-android-sample/">Bugfender</a> - Cloud storage for your app logs, track user behaviour to find problems in your mobile apps.</li>
+<li>
+<a href="https://github.com/jgilfelt/chuck">Chuck</a> - Chuck is a simple in-app HTTP inspector for Android OkHttp clients. Chuck intercepts and persists all HTTP requests and responses inside your application, and provides a UI for inspecting their content.</li>
+<li>
+<a href="http://anuitor.scurab.com/">AnUitor</a> - UI debug tool for Android</li>
+</ul>
+<h2>
+<a id="user-content-resources" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#resources" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources</h2>
+<p>Check out the following resources for finding libraries:</p>
+<ul>
+<li><a href="http://android-arsenal.com/">http://android-arsenal.com</a></li>
+<li><a href="https://github.com/wasabeef/awesome-android-libraries">Wasabeef Core Libraries</a></li>
+<li><a href="https://github.com/wasabeef/awesome-android-ui">Wasabeef UI Libraries</a></li>
+<li><a href="https://github.com/aritraroy/UltimateAndroidReference/blob/master/README.md">Ultimate Android Library Reference</a></li>
+<li><a href="https://snowdream.github.io/awesome-android/">Snowdream Android Library Repository</a></li>
+<li><a href="http://appdevwiki.com/wiki/show/HomePage">http://appdevwiki.com/wiki/show/HomePage</a></li>
+<li><a href="http://www.libtastic.com/">http://www.libtastic.com</a></li>
+<li><a href="https://android.libhunt.com/">Android Libhunt</a></li>
+</ul>
+<h2>
+<a id="user-content-references" class="anchor" href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries#references" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>References</h2>
+<ul>
+<li><a href="http://www.vogella.com/tutorials/AndroidUsefulLibraries/article.html">http://www.vogella.com/tutorials/AndroidUsefulLibraries/article.html</a></li>
+<li><a href="http://actionbarsherlock.com/">http://actionbarsherlock.com/</a></li>
+<li><a href="http://nineoldandroids.com/">http://nineoldandroids.com/</a></li>
+<li><a href="https://github.com/roboguice/roboguice/wiki">https://github.com/roboguice/roboguice/wiki</a></li>
+<li><a href="https://github.com/excilys/androidannotations/wiki">https://github.com/excilys/androidannotations/wiki</a></li>
+<li><a href="https://github.com/erikwt/PullToRefresh-ListView">https://github.com/erikwt/PullToRefresh-ListView</a></li>
+<li><a href="https://github.com/jfeinstein10/SlidingMenu">https://github.com/jfeinstein10/SlidingMenu</a></li>
+<li><a href="http://square.github.io/picasso/">http://square.github.io/picasso/</a></li>
+<li><a href="https://cloudrail.com/best-android-libraries-for-developers/">https://cloudrail.com/best-android-libraries-for-developers/</a></li>
+<li><a href="https://github.com/geniushkg/github-oauth">https://github.com/geniushkg/github-oauth</a></li>
+</ul>
+
+        </div>
+
+        <div id="wiki-footer" class="wiki-footer gollum-markdown-content boxed-group">
+          <div class="boxed-group-inner wiki-auxiliary-content wiki-writable markdown-body">
+              <a href="https://github.com/codepath/android_guides/wiki/_Footer/_edit" class="wiki-edit-link" title="Edit footer">
+                <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg>
+              </a>
+            <p>Created by <a href="http://codepath.com/">CodePath</a> with much help from the community. Contributed content licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">cc-wiki</a> with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/">attribution required</a>. You are free to remix and reuse, as long as you attribute and use a similar license.</p>
+
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+  </div>
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="container-lg site-footer-container">
+  <div class="site-footer " role="contentinfo">
+    <ul class="site-footer-links float-right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com/" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com/" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>© 2017 <span title="0.56361s from unicorn-2097668205-js9kd">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com/" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha256-PFKqXEe+dkkF3QcpsW0H8kPaWbrSXeyMiG1GEzmKBHM=" src="./Must Have Libraries · codepath_android_guides Wiki_files/frameworks-3c52aa5c47be764905dd0729b16d07f243da59bad25dec8c886d4613398a0473.js"></script>
+    
+    <script async="async" crossorigin="anonymous" integrity="sha256-n9vS90eRHeviuhG6Lm2LTh5BCG6Kq35en6V4Fo+yKHw=" src="./Must Have Libraries · codepath_android_guides Wiki_files/github-9fdbd2f747911debe2ba11ba2e6d8b4e1e41086e8aab7e5e9fa578168fb2287c.js"></script>
+    
+    
+      <script crossorigin="anonymous" integrity="sha256-JHPhLg1b/eNJYyI4TeyftiHlYiGuPDien2Z1vcRZOa4=" src="./Must Have Libraries · codepath_android_guides Wiki_files/wiki-2473e12e0d5bfde3496322384dec9fb621e56221ae3c389e9f6675bdc45939ae.js"></script>
+
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="https://github.com/codepath/android_guides/wiki/Must-Have-Libraries">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+  </div>
+</div>
+
+
+  
+
+
+</body></html>
